@@ -1,5 +1,35 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: antiquewhite;
+  background-color: rgb(245, 239, 232);
   margin: 15px;
+}
+
+.grass {
+  background-color: rgb(132, 175, 132);
+}
+
+.fire {
+  background-color: rgb(240, 163, 163);
+}
+
+.water {
+  background-color: rgb(144, 241, 241);
+}
+
+.bug {
+  background-color: rgb(187, 136, 211);
+}
+
+.div-pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.pokedex {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
