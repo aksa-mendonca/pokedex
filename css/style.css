@@ -4,6 +4,17 @@ body {
   margin: 15px;
 }
 
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: */
+}
+
 .grass {
   background-color: rgb(132, 175, 132);
 }
